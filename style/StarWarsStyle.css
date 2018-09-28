@@ -1,0 +1,417 @@
+@import "compass/css3";
+
+body {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+heading {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+li {
+    /* margin-left: 50px; */
+}
+
+/* main {
+    display: flex;
+} */
+
+nav {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    background: black;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 20px;
+    /* max-height: 20px; */
+    /* min-width: 1000px;
+    max-width: 1500px; */
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+
+    min-height: 50px;
+    /* max-height: 150px; */
+    /* min-width: 1000px;
+    max-width: 1500px; */
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    color: white;
+}
+
+.menu .left {
+    width: 50%;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    background: blue;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu .right {
+    width: 50%;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    background: green;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu .right .in {
+    width: 50px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+
+    -webkit-flex-flow: row wrap;
+    background: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    background: white;
+    align-items: center;
+    justify-content: left;
+
+    min-height: 50px;
+    max-height: 100px;
+    /* min-width: 1000px;
+    max-width: 1500px; */
+}
+
+main {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    list-style: none;
+
+    -webkit-flex-flow: row wrap;
+    background: purple;
+    /* justify-content: flex-end; */
+    align-items: center;
+    min-height: 500px;
+    /* max-height: 20px;
+    min-width: 1000px;
+    max-width: 1500px; */
+}
+
+main .poster {
+    min-width: 30%;
+    display: flex;
+
+    background: blue;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.poster a {
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+main .content {
+    max-width: 50%;
+    color: white;
+    padding-left: 50px;
+}
+
+main .content .content1 {
+    background: red;
+}
+
+main .content .content2 {
+    background: orange;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    text-decoration: none
+}
+
+.content2 a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main .content .content3 {
+    background: blue;
+}
+
+main .content .content4 {
+    background: orange;
+}
+
+main .content .content5 {
+    display: flex;
+    background: green;
+    color: white;
+}
+
+main .content .content5 .in {
+    width: 22%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+
+    -webkit-flex-flow: column wrap;
+    background: orange;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.in a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    /* align-items: center; */
+    padding-right: 10px;
+    padding-bottom: 15px;
+    /* padding-left: 10px; */
+}
+
+.sub-menu {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    background: white;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 50px;
+    max-height: 100px;
+    /* min-width: 1000px;
+    max-width: 1500px; */
+}
+
+.sub-menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    color: black;
+}
+
+.main2 {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    background: gray;
+    justify-content: flex-end;
+    align-items: top;
+    min-height: 20px;
+    /* padding: 10px; */
+    /* max-height: 20px; */
+    /* min-width: 1000px;
+    max-width: 1500px; */
+}
+
+.main2 .left {
+    background: red;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+.main2 .left .content1 {
+    background: yellow;
+    display: flex;
+    padding: 10px;
+}
+
+.main2 .left .content2 {
+    background: blueviolet;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    padding: 10px;
+}
+
+.main2 .left .content2 .in {
+    /* width: 18%; */
+    width: 180px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+
+    -webkit-flex-flow: column wrap;
+    background: orange;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+
+    box-shadow: 0 2px 3px black;
+}
+
+.main2 .left .content2 .in a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+    /* padding-right: 10px;
+    padding-bottom: 15px; */
+    /* padding-left: 10px; */
+}
+
+.main2 .left .content2 .in .in2 {
+    width: 170px;
+    padding-left: 10px;
+    background: orange;
+    padding-top: 10px;
+}
+
+.main2 .left .content3 {
+    background: burlywood;
+    display: flex;
+    padding: 10px;
+}
+
+.main2 .right {
+    background: green;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+.main2 .right .content1 {
+    /* height: 10%; */
+    background: rosybrown;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.main2 .right .content1 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+
+    padding-right: 20px;
+    ;
+    /* padding-bottom: 15px; */
+    /* padding-left: 10px; */
+}
+
+.main2 .right .content2 {
+    /* height: 100px; */
+    background: yellow;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: top;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main2 .right .content2 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /* padding-bottom: 15px; */
+    /* padding-left: 10px; */
+}
+
+.main2 .right .content3 {
+    list-style: none;
+    background: yellowgreen;
+    display: flex;
+    /* -webkit-flex-flow: column wrap; */
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    /* padding: 10px; */
+}
+
+.main2 .right .content3 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.main2 .right .content3 .in {
+    width: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
